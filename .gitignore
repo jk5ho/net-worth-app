@@ -1,0 +1,21 @@
+# Local databases / data — contains user data, never commit
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+net_worth_data.csv
+
+# Python virtualenv
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit local cache (if any)
+.streamlit/secrets.toml
